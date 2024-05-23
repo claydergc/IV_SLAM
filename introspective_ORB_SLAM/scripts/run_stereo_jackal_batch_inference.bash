@@ -31,7 +31,7 @@ LOAD_REL_POSE_UNCERTAINTY="false"
 
 CONFIG_FILE_DIR="../Examples/Stereo"
 SOURCE_DATASET_BASE_DIR=\
-"../../Jackal_Visual_Odom/"
+"../../Jackal_Visual_Odom"
 
 INTROSPECTION_MODEL_PATH=\
 "../../introspection_function/pretrained/iv_jackal_mobilenet_c1deepsup_light.pt"
