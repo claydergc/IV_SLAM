@@ -18,11 +18,11 @@ alt="IV-SLAM CORL 2020" width="240" height="180" border="10" /></a>
 6. [JsonCpp](https://github.com/open-source-parsers/jsoncpp)
 7. CUDA(&geq; 10.2) and cuDNN (&geq; 7.6.5)
 
-Download and install Pangolin from [here](https://github.com/stevenlovegrove/Pangolin). 
+<!--Download and install Pangolin from [here](https://github.com/stevenlovegrove/Pangolin). 
 You can install the rest of the dependencies on ubuntu using:
 ```
 sudo apt-get install libgoogle-glog-dev libgflags-dev libjsoncpp-dev libeigen3-dev nvidia-cuda-toolkit
-```
+```-->
 
 ## Build
 ```
@@ -31,6 +31,7 @@ cd introspective_ORB_SLAM
 ./build.sh
 ```
 
+<!--
 ## Environment Setup for Training
 We use [Pytorch](https://pytorch.org/) for training the introspection function. Setting up a virtual environment using [Conda](https://docs.conda.io/en/latest/) is suggested. You can install the minimal installer for Conda from [here](https://docs.conda.io/en/latest/miniconda.html). Then, create an environment using:
 ```
@@ -42,6 +43,7 @@ conda install -c conda-forge scikit-image pillow==6.2.1 yacs tqdm
 conda install -c anaconda scikit-learn
 conda install -c menpo opencv
 ```
+-->
 
 ## Running IV-SLAM
 
@@ -51,10 +53,10 @@ Download a pre-trained model using:
 ./download_pretrained_models.bash
 ```
 
-Download a short robot deployment session using:
+<!--Download a short robot deployment session using:
 ```
 ./download_sample_data.bash
-```
+```-->
 
 ### Run IV-SLAM in Inference Mode
 Run IV-SLAM using a pre-trained model on the downloaded data:
