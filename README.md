@@ -47,13 +47,13 @@ conda install -c menpo opencv
 
 ## Running IV-SLAM
 
-### Download Sample Data and Pre-trained Models
+<!-- ### Download Sample Data and Pre-trained Models
 Download a pre-trained model using:
 ```
 ./download_pretrained_models.bash
 ```
 
-<!--Download a short robot deployment session using:
+Download a short robot deployment session using:
 ```
 ./download_sample_data.bash
 ```-->
