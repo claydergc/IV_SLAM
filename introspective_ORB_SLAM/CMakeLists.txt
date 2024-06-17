@@ -114,6 +114,12 @@ Examples/Stereo/stereo_kitti.cc)
 target_link_libraries(stereo_kitti ${PROJECT_NAME} "${TORCH_LIBRARIES}")
 set_property(TARGET stereo_kitti PROPERTY CXX_STANDARD 14)
 
+add_executable(stereo_single_image_costmap
+Examples/Stereo/stereo_single_image_costmap.cc)
+target_link_libraries(stereo_single_image_costmap ${PROJECT_NAME} "${TORCH_LIBRARIES}")
+set_property(TARGET stereo_single_image_costmap PROPERTY CXX_STANDARD 14)
+
+
 add_executable(stereo_euroc
 Examples/Stereo/stereo_euroc.cc)
 target_link_libraries(stereo_euroc ${PROJECT_NAME})
