@@ -29,6 +29,8 @@ sudo apt-get install libgoogle-glog-dev libgflags-dev libjsoncpp-dev libeigen3-d
 ./install_dependencies.bash
 cd introspective_ORB_SLAM
 ./build.sh
+mv ../Jackal_Visual_Odom.zip .
+unzip Jackal_Visual_Odom.zip
 ```
 
 <!--
